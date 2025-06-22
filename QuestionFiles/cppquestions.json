@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which of the following is a correct syntax to output 'Hello World' in C++?",
+    "options": ["cout << 'Hello World';", "Console.WriteLine('Hello World');", "print('Hello World')", "System.out.println('Hello World');"],
+    "answer": "cout << 'Hello World';"
+  },
+  {
+    "question": "Which header file is required for using 'cout' and 'cin' in C++?",
+    "options": ["<iostream>", "<stdio.h>", "<conio.h>", "<stdlib.h>"],
+    "answer": "<iostream>"
+  },
+  {
+    "question": "Which symbol is used to declare a pointer in C++?",
+    "options": ["&", "*", "#", "%"],
+    "answer": "*"
+  },
+  {
+    "question": "What is the size of an int variable (in most 32-bit compilers)?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on the compiler"],
+    "answer": "4 bytes"
+  },
+  {
+    "question": "What is the output of: int a = 5/2; cout << a;",
+    "options": ["2.5", "2", "2.0", "Error"],
+    "answer": "2"
+  },
+  {
+    "question": "Which of the following is used to define a class in C++?",
+    "options": ["function", "structure", "object", "class"],
+    "answer": "class"
+  },
+  {
+    "question": "Which keyword is used to inherit a class in C++?",
+    "options": ["extends", "inherits", "implements", "public"],
+    "answer": "public"
+  },
+  {
+    "question": "Which function is called when an object is destroyed?",
+    "options": ["constructor", "main()", "destructor", "delete"],
+    "answer": "destructor"
+  },
+  {
+    "question": "Which of the following is a valid constructor for class Test?",
+    "options": ["void Test()", "int Test()", "Test()", "constructor Test()"],
+    "answer": "Test()"
+  },
+  {
+    "question": "What is function overloading in C++?",
+    "options": ["Two functions with same name but different parameters", "Function inside another function", "Function with different return types", "None of these"],
+    "answer": "Two functions with same name but different parameters"
+  },
+  {
+    "question": "Which of these is a loop construct in C++?",
+    "options": ["for", "foreach", "loop", "repeat"],
+    "answer": "for"
+  },
+  {
+    "question": "What will be the output of: int x = 10; cout << ++x;",
+    "options": ["10", "11", "9", "Error"],
+    "answer": "11"
+  },
+  {
+    "question": "What is the correct way to allocate memory dynamically for an integer in C++?",
+    "options": ["int *p = malloc(sizeof(int));", "int p = new int;", "int *p = new int;", "new int p;"],
+    "answer": "int *p = new int;"
+  },
+  {
+    "question": "Which operator is used to access members of a class through pointer?",
+    "options": [".", ":", "->", "*"],
+    "answer": "->"
+  },
+  {
+    "question": "What is the use of 'this' pointer in C++?",
+    "options": ["Refers to parent object", "Refers to current object", "Refers to child object", "None of these"],
+    "answer": "Refers to current object"
+  },
+  {
+    "question": "Which feature of OOP allows reusing code?",
+    "options": ["Abstraction", "Inheritance", "Polymorphism", "Encapsulation"],
+    "answer": "Inheritance"
+  },
+  {
+    "question": "Which of the following is not a basic data type in C++?",
+    "options": ["int", "float", "string", "bool"],
+    "answer": "string"
+  },
+  {
+    "question": "What is the default access specifier for members of a class in C++?",
+    "options": ["public", "private", "protected", "internal"],
+    "answer": "private"
+  },
+  {
+    "question": "Which of these keywords is used to prevent overriding a function?",
+    "options": ["sealed", "override", "final", "static"],
+    "answer": "final"
+  },
+  {
+    "question": "Which of the following correctly declares an array of 10 integers?",
+    "options": ["int arr[10];", "int arr;", "arr[10] int;", "int[10] arr;"],
+    "answer": "int arr[10];"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": ["Creative Style Sheets", "Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "options": ["<style>", "<css>", "<script>", "<link>"],
+    "answer": "<style>"
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "options": ["color", "background-color", "bgcolor", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "options": ["font-weight: bold;", "text-decoration: bold;", "font-style: bold;", "font: bold;"],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "options": ["font-style", "font-family", "font-type", "text-style"],
+    "answer": "font-family"
+  },
+  {
+    "question": "Which property is used to align text to the center?",
+    "options": ["text-align: middle;", "text-align: center;", "align: center;", "horizontal-align: center;"],
+    "answer": "text-align: center;"
+  },
+  {
+    "question": "How do you select an element with id 'main' in CSS?",
+    "options": ["#main", ".main", "main", "*main"],
+    "answer": "#main"
+  },
+  {
+    "question": "How do you select elements with class name 'btn'?",
+    "options": [".btn", "#btn", "btn", "*btn"],
+    "answer": ".btn"
+  },
+  {
+    "question": "Which property controls the text size?",
+    "options": ["font-size", "text-size", "font-style", "text-style"],
+    "answer": "font-size"
+  },
+  {
+    "question": "How do you add a border in CSS?",
+    "options": ["border: 1px solid black;", "border-style: solid;", "border-color: black;", "border-width: 1px;"],
+    "answer": "border: 1px solid black;"
+  },
+  {
+    "question": "What does the 'z-index' property control?",
+    "options": ["Text size", "Stacking order", "Element visibility", "Padding"],
+    "answer": "Stacking order"
+  },
+  {
+    "question": "How do you make a list appear horizontally?",
+    "options": ["display: inline;", "list-style: none;", "float: left;", "display: flex;"],
+    "answer": "display: flex;"
+  },
+  {
+    "question": "Which unit is relative to the root element in CSS?",
+    "options": ["em", "%", "rem", "vh"],
+    "answer": "rem"
+  },
+  {
+    "question": "What is the default position of an element in CSS?",
+    "options": ["relative", "absolute", "static", "fixed"],
+    "answer": "static"
+  },
+  {
+    "question": "How do you make an element invisible but still take up space?",
+    "options": ["display: none;", "opacity: 0;", "visibility: hidden;", "z-index: -1;"],
+    "answer": "visibility: hidden;"
+  },
+  {
+    "question": "Which CSS property adds space inside the border of an element?",
+    "options": ["padding", "margin", "border-spacing", "gap"],
+    "answer": "padding"
+  },
+  {
+    "question": "Which CSS property adds space outside the border of an element?",
+    "options": ["margin", "padding", "spacing", "border"],
+    "answer": "margin"
+  },
+  {
+    "question": "Which CSS value allows elements to float next to each other?",
+    "options": ["position", "float", "align", "z-index"],
+    "answer": "float"
+  },
+  {
+    "question": "Which shorthand property sets all padding values at once?",
+    "options": ["padding", "margin", "spacing", "border"],
+    "answer": "padding"
+  },
+  {
+    "question": "Which declaration is used to override all other styles?",
+    "options": ["!important", "!override", "!force", "!reset"],
+    "answer": "!important"
+  }
+]

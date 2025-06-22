@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": ["HyperText Markup Language", "HighText Machine Language", "HyperTransfer Markup Language", "HyperTool Multi Language"],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "question": "Who is the father of HTML?",
+    "options": ["Rasmus Lerdorf", "Tim Berners-Lee", "Brendan Eich", "Sergey Brin"],
+    "answer": "Tim Berners-Lee"
+  },
+  {
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": ["<break>", "<lb>", "<br>", "<newline>"],
+    "answer": "<br>"
+  },
+  {
+    "question": "Which HTML tag is used to display a picture on a webpage?",
+    "options": ["<img>", "<pic>", "<src>", "<image>"],
+    "answer": "<img>"
+  },
+  {
+    "question": "Which attribute is used to provide a unique name to an HTML element?",
+    "options": ["class", "id", "name", "key"],
+    "answer": "id"
+  },
+  {
+    "question": "What is the purpose of the <head> tag in HTML?",
+    "options": ["To contain all body content", "To define headers", "To contain metadata", "To create heading text"],
+    "answer": "To contain metadata"
+  },
+  {
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "answer": "<a>"
+  },
+  {
+    "question": "How do you create a numbered list in HTML?",
+    "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+    "answer": "<ol>"
+  },
+  {
+    "question": "Which attribute is used to open a link in a new tab?",
+    "options": ["new", "target='_blank'", "open='new'", "window='new'"],
+    "answer": "target='_blank'"
+  },
+  {
+    "question": "Which of the following is the correct way to comment in HTML?",
+    "options": ["<!-- This is a comment -->", "// This is a comment", "# This is a comment", "/* This is a comment */"],
+    "answer": "<!-- This is a comment -->"
+  },
+  {
+    "question": "Which tag is used to define a table row?",
+    "options": ["<td>", "<th>", "<tr>", "<table>"],
+    "answer": "<tr>"
+  },
+  {
+    "question": "What is the correct HTML for adding a background color?",
+    "options": ["<body color='yellow'>", "<background>yellow</background>", "<body style='background-color:yellow;'>", "<bg>yellow</bg>"],
+    "answer": "<body style='background-color:yellow;'>"
+  },
+  {
+    "question": "Which tag is used for the largest heading?",
+    "options": ["<heading>", "<h6>", "<head>", "<h1>"],
+    "answer": "<h1>"
+  },
+  {
+    "question": "Which tag is used to define an unordered list?",
+    "options": ["<ol>", "<ul>", "<li>", "<list>"],
+    "answer": "<ul>"
+  },
+  {
+    "question": "Which tag is used to create a text input field?",
+    "options": ["<input type='text'>", "<textfield>", "<textinput>", "<inputtext>"],
+    "answer": "<input type='text'>"
+  },
+  {
+    "question": "What does the <title> tag do?",
+    "options": ["Defines the page title shown in the browser tab", "Displays a title inside the page", "Creates a header", "Adds a tooltip"],
+    "answer": "Defines the page title shown in the browser tab"
+  },
+  {
+    "question": "How can you make a list item appear as a bullet?",
+    "options": ["Use <li> inside <ul>", "Use <bullet>", "Use <ol> with <bullet>", "Use <list>"],
+    "answer": "Use <li> inside <ul>"
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML?",
+    "options": ["<p>", "<paragraph>", "<para>", "<text>"],
+    "answer": "<p>"
+  },
+  {
+    "question": "What does the 'alt' attribute in the <img> tag do?",
+    "options": ["Changes image alignment", "Adds a border", "Provides alternate text", "Links to another image"],
+    "answer": "Provides alternate text"
+  },
+  {
+    "question": "Which tag is used to embed a video in HTML5?",
+    "options": ["<media>", "<video>", "<vid>", "<mp4>"],
+    "answer": "<video>"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the output of: print(type(10))?",
+    "options": ["<class 'int'>", "<class 'float'>", "<type 'int'>", "<int>"],
+    "answer": "<class 'int'>"
+  },
+  {
+    "question": "Which of the following is a valid variable name in Python?",
+    "options": ["2var", "my-var", "_myvar", "my var"],
+    "answer": "_myvar"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["func", "define", "function", "def"],
+    "answer": "def"
+  },
+  {
+    "question": "What is the output of: print(2 ** 3)?",
+    "options": ["6", "8", "9", "Error"],
+    "answer": "8"
+  },
+  {
+    "question": "Which data structure does not allow duplicate values?",
+    "options": ["list", "tuple", "set", "dictionary"],
+    "answer": "set"
+  },
+  {
+    "question": "What is the correct file extension for Python files?",
+    "options": [".pyth", ".pt", ".py", ".pyt"],
+    "answer": ".py"
+  },
+  {
+    "question": "What does the len() function do?",
+    "options": ["Returns the size of a list", "Returns the number of characters", "Returns the length of an object", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How do you start a comment in Python?",
+    "options": ["//", "#", "/*", "<!--"],
+    "answer": "#"
+  },
+  {
+    "question": "What is the output of: print(bool(0))?",
+    "options": ["True", "False", "0", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which of the following is used to handle exceptions in Python?",
+    "options": ["try/except", "catch/throw", "do/while", "if/else"],
+    "answer": "try/except"
+  },
+  {
+    "question": "What is the output of: print('Python'[::-1])?",
+    "options": ["nohtyP", "Python", "Error", "Reverse"],
+    "answer": "nohtyP"
+  },
+  {
+    "question": "Which keyword is used for loop in Python?",
+    "options": ["for", "loop", "iterate", "repeat"],
+    "answer": "for"
+  },
+  {
+    "question": "Which method adds an item to the end of a list?",
+    "options": ["append()", "add()", "insert()", "extend()"],
+    "answer": "append()"
+  },
+  {
+    "question": "What is the result of 10 // 3?",
+    "options": ["3.33", "3", "4", "3.0"],
+    "answer": "3"
+  },
+  {
+    "question": "Which of the following is a mutable data type?",
+    "options": ["tuple", "list", "string", "int"],
+    "answer": "list"
+  },
+  {
+    "question": "Which built-in function returns the largest item in an iterable?",
+    "options": ["large()", "biggest()", "max()", "maximum()"],
+    "answer": "max()"
+  },
+  {
+    "question": "What is the output of: print(10 > 5 and 3 < 1)?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": "False"
+  },
+  {
+    "question": "How do you create a dictionary in Python?",
+    "options": ["{}", "[]", "()", "<>"],
+    "answer": "{}"
+  },
+  {
+    "question": "Which keyword is used to create a class in Python?",
+    "options": ["function", "def", "class", "object"],
+    "answer": "class"
+  },
+  {
+    "question": "What is the output of: print('Hello' + 'World')?",
+    "options": ["Hello World", "HelloWorld", "Hello+World", "Error"],
+    "answer": "HelloWorld"
+  }
+]
