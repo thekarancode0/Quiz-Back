@@ -7,17 +7,20 @@ const userRoutes = require('./routes/user')
 const app = express();
 require("dotenv").config();
 
+
+// Connect to MongoDB
+connectDB();
+
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(userRoutes);
 
-// Connect to MongoDB
-connectDB();
 
 // Routes
 app.use("/", authRoutes);
 app.use("/api", questionRoutes)
+app.use("/api",userRoutes)
 
 // Start server
 const PORT = process.env.PORT || 5000;
