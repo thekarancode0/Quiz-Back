@@ -39,3 +39,7 @@ exports.login = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+
+exports.karan = async(req,res)=>{
+  res.send("okkk jii")
+};
