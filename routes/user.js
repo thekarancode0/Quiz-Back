@@ -1,25 +1,25 @@
-// routes/user.js
 const express = require("express");
 const multer = require("multer");
 const router = express.Router();
 const User = require("../models/User");
+const auth = require("../middleware/auth"); // JWT middleware
 
-// Setup multer for image upload
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
-// GET: Fetch user
-router.get("/user", async (req, res) => {
+// GET user by logged-in ID
+router.get("/user", auth, async (req, res) => {
   try {
-    const user = await User.findOne();
+    const user = await User.findById(req.user.id);
     res.json(user);
   } catch (err) {
     res.status(500).json({ message: "Failed to fetch user" });
   }
 });
 
-// POST: Update user profile with avatar
-router.post("/user/update", upload.single("avatar"), async (req, res) => {
+
+// POST update user
+router.post("/user/update", auth, upload.single("avatar"), async (req, res) => {
   try {
     const { fname, email, linkedin, github, skills, testsTaken } = req.body;
     const avatar = req.file ? req.file.buffer.toString("base64") : undefined;
@@ -33,16 +33,19 @@ router.post("/user/update", upload.single("avatar"), async (req, res) => {
       testsTaken: parseInt(testsTaken || 0),
     };
 
-    if (avatar) updateData.avatar = `data:image/png;base64,${avatar}`;
+    if (avatar) {
+      const mimeType = req.file.mimetype || "image/png";
+      updateData.avatar = `data:${mimeType};base64,${avatar}`;
+    }
 
-    const user = await User.findOneAndUpdate({}, updateData, {
+    const user = await User.findByIdAndUpdate(req.user.id, updateData, {
       new: true,
-      upsert: true,
     });
 
     res.json(user);
   } catch (err) {
     console.error(err);
+    console.log(storage);
     res.status(500).json({ message: "Update failed" });
   }
 });
