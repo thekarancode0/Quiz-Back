@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the correct syntax to create a functional component in React?",
+    "options": ["function MyComponent() {}", "def MyComponent() {}", "component MyComponent() {}", "function = MyComponent()"],
+    "answer": "function MyComponent() {}"
+  },
+  {
+    "question": "What is JSX?",
+    "options": ["A JavaScript XML syntax extension", "A templating engine", "A CSS preprocessor", "A type of JSON"],
+    "answer": "A JavaScript XML syntax extension"
+  },
+  {
+    "question": "Which hook is used to add state to a functional component?",
+    "options": ["useRef", "useEffect", "useState", "useContext"],
+    "answer": "useState"
+  },
+  {
+    "question": "What is the purpose of useEffect in React?",
+    "options": ["To create a component", "To handle side effects", "To manage routes", "To declare styles"],
+    "answer": "To handle side effects"
+  },
+  {
+    "question": "Which company developed React?",
+    "options": ["Google", "Facebook", "Microsoft", "Amazon"],
+    "answer": "Facebook"
+  },
+  {
+    "question": "What is the default port for React development server?",
+    "options": ["3000", "8000", "5000", "8080"],
+    "answer": "3000"
+  },
+  {
+    "question": "Which prop is used to pass data from parent to child?",
+    "options": ["data", "state", "props", "context"],
+    "answer": "props"
+  },
+  {
+    "question": "What must be returned by a React component?",
+    "options": ["JSX", "HTML", "String", "CSS"],
+    "answer": "JSX"
+  },
+  {
+    "question": "What is the virtual DOM?",
+    "options": ["A lightweight copy of the real DOM", "A real-time database", "A JavaScript server", "A data visualization tool"],
+    "answer": "A lightweight copy of the real DOM"
+  },
+  {
+    "question": "How do you update state in a React component using useState?",
+    "options": ["state = newValue", "setState(newValue)", "useState(newValue)", "updateState(newValue)"],
+    "answer": "setState(newValue)"
+  },
+  {
+    "question": "What is the use of keys in lists in React?",
+    "options": ["To add style", "To identify which items have changed", "To sort items", "To delete items"],
+    "answer": "To identify which items have changed"
+  },
+  {
+    "question": "Which hook is used to access context in React?",
+    "options": ["useEffect", "useState", "useContext", "useRef"],
+    "answer": "useContext"
+  },
+  {
+    "question": "What is the correct way to import React in a component?",
+    "options": ["import React from 'react'", "require('react')", "include React", "import {React}"],
+    "answer": "import React from 'react'"
+  },
+  {
+    "question": "What does lifting state up mean?",
+    "options": ["Moving state from child to parent", "Using state globally", "Setting state in index.js", "Removing all state"],
+    "answer": "Moving state from child to parent"
+  },
+  {
+    "question": "Which of the following is true about props?",
+    "options": ["They are mutable", "They are read-only", "They can be changed by child", "They are global"],
+    "answer": "They are read-only"
+  },
+  {
+    "question": "Which hook is used to persist a value between renders without causing a re-render?",
+    "options": ["useState", "useEffect", "useRef", "useReducer"],
+    "answer": "useRef"
+  },
+  {
+    "question": "What is a higher-order component (HOC)?",
+    "options": ["A component that manages CSS", "A component that wraps another component", "A component with a higher priority", "A class-based component"],
+    "answer": "A component that wraps another component"
+  },
+  {
+    "question": "What is React Router used for?",
+    "options": ["Handling form inputs", "Routing between pages", "Fetching API data", "Managing component state"],
+    "answer": "Routing between pages"
+  },
+  {
+    "question": "What is the main advantage of React?",
+    "options": ["Fast rendering using virtual DOM", "Full backend support", "Built-in authentication", "Native mobile development"],
+    "answer": "Fast rendering using virtual DOM"
+  },
+  {
+    "question": "How do you create a React app using CLI?",
+    "options": ["npx create-react-app myApp", "npm init react-app myApp", "create react myApp", "npx init react"],
+    "answer": "npx create-react-app myApp"
+  }
+]

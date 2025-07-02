@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which of the following is the correct syntax to declare a variable in C?",
+    "options": ["int num;", "var num;", "num int;", "integer num;"],
+    "answer": "int num;"
+  },
+  {
+    "question": "What is the output of printf(\"%d\", 10 + 5);?",
+    "options": ["15", "10", "5", "Compilation Error"],
+    "answer": "15"
+  },
+  {
+    "question": "Which of the following is used to take input from the user in C?",
+    "options": ["input()", "scanf()", "read()", "gets()"],
+    "answer": "scanf()"
+  },
+  {
+    "question": "Which keyword is used to define a constant in C?",
+    "options": ["const", "#define", "final", "constant"],
+    "answer": "#define"
+  },
+  {
+    "question": "What is the size of an int in a 32-bit C compiler?",
+    "options": ["4 bytes", "2 bytes", "8 bytes", "1 byte"],
+    "answer": "4 bytes"
+  },
+  {
+    "question": "Which of the following symbols is used to denote a pointer?",
+    "options": ["*", "&", "#", "%"],
+    "answer": "*"
+  },
+  {
+    "question": "Which function is used to print output in C?",
+    "options": ["cin", "cout", "print()", "printf()"],
+    "answer": "printf()"
+  },
+  {
+    "question": "Which loop checks the condition after executing the loop body?",
+    "options": ["for", "while", "do-while", "if"],
+    "answer": "do-while"
+  },
+  {
+    "question": "Which header file is required to use printf and scanf?",
+    "options": ["<conio.h>", "<stdlib.h>", "<stdio.h>", "<math.h>"],
+    "answer": "<stdio.h>"
+  },
+  {
+    "question": "Which operator is used to access the value at the address stored in a pointer?",
+    "options": ["&", "*", "@", "!"],
+    "answer": "*"
+  },
+  {
+    "question": "Which keyword is used to return a value from a function?",
+    "options": ["get", "output", "return", "send"],
+    "answer": "return"
+  },
+  {
+    "question": "Which function is used to allocate memory dynamically?",
+    "options": ["malloc()", "alloc()", "new()", "create()"],
+    "answer": "malloc()"
+  },
+  {
+    "question": "Which of the following is not a data type in C?",
+    "options": ["int", "float", "real", "char"],
+    "answer": "real"
+  },
+  {
+    "question": "Which keyword is used to include libraries in a C program?",
+    "options": ["import", "#include", "using", "require"],
+    "answer": "#include"
+  },
+  {
+    "question": "What will be the value of x after executing: int x = 10 / 3;?",
+    "options": ["3", "3.33", "3.0", "Compilation Error"],
+    "answer": "3"
+  },
+  {
+    "question": "What does the 'break' statement do in a loop?",
+    "options": ["Skips the current iteration", "Exits the loop", "Restarts the loop", "Ends the program"],
+    "answer": "Exits the loop"
+  },
+  {
+    "question": "Which operator is used for logical AND in C?",
+    "options": ["&&", "&", "and", "&&&"],
+    "answer": "&&"
+  },
+  {
+    "question": "Which function is used to compare two strings in C?",
+    "options": ["strcompare()", "strcmp()", "compare()", "match()"],
+    "answer": "strcmp()"
+  },
+  {
+    "question": "Which of the following is the correct way to declare an array in C?",
+    "options": ["int arr[] = {1, 2, 3};", "array arr = {1, 2, 3};", "int arr = [1, 2, 3];", "arr int[] = {1, 2, 3};"],
+    "answer": "int arr[] = {1, 2, 3};"
+  },
+  {
+    "question": "Which of these is a valid comment in C?",
+    "options": ["// comment", "# comment", "<!-- comment -->", "** comment **"],
+    "answer": "// comment"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is TypeScript?",
+    "options": ["A database", "A CSS preprocessor", "A superset of JavaScript", "A JavaScript framework"],
+    "answer": "A superset of JavaScript"
+  },
+  {
+    "question": "Which extension is used for TypeScript files?",
+    "options": [".js", ".ts", ".jsx", ".tsx"],
+    "answer": ".ts"
+  },
+  {
+    "question": "Which command compiles TypeScript files?",
+    "options": ["tsc", "ts-run", "npm build", "compile-ts"],
+    "answer": "tsc"
+  },
+  {
+    "question": "Which keyword is used for defining a variable with a fixed type?",
+    "options": ["define", "var", "let", "let with type annotation"],
+    "answer": "let with type annotation"
+  },
+  {
+    "question": "What will `let x: number = 'hello';` result in?",
+    "options": ["Success", "Syntax Warning", "Runtime Error", "Compilation Error"],
+    "answer": "Compilation Error"
+  },
+  {
+    "question": "Which of the following is NOT a TypeScript primitive type?",
+    "options": ["number", "string", "boolean", "real"],
+    "answer": "real"
+  },
+  {
+    "question": "How do you define an array of numbers in TypeScript?",
+    "options": ["number[]", "Array<number>", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "question": "Which of the following is used to explicitly specify that a value can be null or undefined?",
+    "options": ["Nullable", "Optional", "Union types", "Maybe"],
+    "answer": "Union types"
+  },
+  {
+    "question": "Which TypeScript type allows any value?",
+    "options": ["any", "unknown", "void", "never"],
+    "answer": "any"
+  },
+  {
+    "question": "What does the `readonly` keyword do in TypeScript?",
+    "options": ["Allows mutation", "Makes the property constant", "Deletes property", "Hides the property"],
+    "answer": "Makes the property constant"
+  },
+  {
+    "question": "What is the type of `null` in TypeScript (with `strictNullChecks` off)?",
+    "options": ["null", "undefined", "object", "number"],
+    "answer": "object"
+  },
+  {
+    "question": "How can you define a tuple in TypeScript?",
+    "options": ["[string, number]", "string[]", "(string, number)", "{string, number}"],
+    "answer": "[string, number]"
+  },
+  {
+    "question": "Which TypeScript feature provides type safety for function parameters?",
+    "options": ["Type annotations", "Interfaces", "Enums", "Decorators"],
+    "answer": "Type annotations"
+  },
+  {
+    "question": "Which keyword is used to define an interface in TypeScript?",
+    "options": ["type", "interface", "struct", "object"],
+    "answer": "interface"
+  },
+  {
+    "question": "What is the purpose of the `never` type?",
+    "options": ["Represents void", "Represents undefined", "Indicates unreachable code", "Accepts any type"],
+    "answer": "Indicates unreachable code"
+  },
+  {
+    "question": "Which tool is used to install TypeScript?",
+    "options": ["npm install -g typescript", "tsc install", "ts install", "npm install typescript-cli"],
+    "answer": "npm install -g typescript"
+  },
+  {
+    "question": "Which keyword is used to define a class in TypeScript?",
+    "options": ["type", "struct", "class", "interface"],
+    "answer": "class"
+  },
+  {
+    "question": "What does `tsconfig.json` file do?",
+    "options": ["Stores project metadata", "Specifies compiler options", "Defines dependencies", "Runs the app"],
+    "answer": "Specifies compiler options"
+  },
+  {
+    "question": "How do you define an optional property in an interface?",
+    "options": ["property = optional", "property?", "?property", "optional property"],
+    "answer": "property?"
+  },
+  {
+    "question": "Which of these is true about TypeScript?",
+    "options": ["It runs in the browser", "It compiles to JavaScript", "It is only for backend", "It requires Node.js to run"],
+    "answer": "It compiles to JavaScript"
+  }
+]

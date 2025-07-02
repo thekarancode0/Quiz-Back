@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": ["var", "int", "let", "define"],
+    "answer": "var"
+  },
+  {
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "options": ["//", "/*", "#", "<!--"],
+    "answer": "//"
+  },
+  {
+    "question": "What will `typeof null` return?",
+    "options": ["null", "object", "undefined", "boolean"],
+    "answer": "object"
+  },
+  {
+    "question": "Which company developed JavaScript?",
+    "options": ["Microsoft", "Sun Microsystems", "Netscape", "Google"],
+    "answer": "Netscape"
+  },
+  {
+    "question": "Which method is used to convert JSON data to a JavaScript object?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.toObject()"],
+    "answer": "JSON.parse()"
+  },
+  {
+    "question": "Which of the following is not a JavaScript data type?",
+    "options": ["string", "number", "boolean", "character"],
+    "answer": "character"
+  },
+  {
+    "question": "Which function is used to execute a block of code after a specified time?",
+    "options": ["setInterval()", "setTimeout()", "wait()", "delay()"],
+    "answer": "setTimeout()"
+  },
+  {
+    "question": "Which of the following is used to define a function in JavaScript?",
+    "options": ["function", "def", "func", "define"],
+    "answer": "function"
+  },
+  {
+    "question": "What will `console.log('5' + 3)` output?",
+    "options": ["8", "53", "Error", "undefined"],
+    "answer": "53"
+  },
+  {
+    "question": "Which operator is used for strict equality in JavaScript?",
+    "options": ["==", "===", "=", "!="],
+    "answer": "==="
+  },
+  {
+    "question": "What does DOM stand for?",
+    "options": ["Document Object Model", "Data Object Model", "Document Oriented Model", "Data Oriented Model"],
+    "answer": "Document Object Model"
+  },
+  {
+    "question": "What will `Boolean(0)` return?",
+    "options": ["true", "false", "0", "undefined"],
+    "answer": "false"
+  },
+  {
+    "question": "Which keyword declares a block-scoped variable?",
+    "options": ["var", "let", "const", "both let and const"],
+    "answer": "both let and const"
+  },
+  {
+    "question": "Which object is the root of the DOM?",
+    "options": ["window", "document", "html", "body"],
+    "answer": "document"
+  },
+  {
+    "question": "Which method removes the last element of an array?",
+    "options": ["pop()", "shift()", "slice()", "splice()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "Which of these is a JavaScript framework?",
+    "options": ["React", "Laravel", "Django", "Flask"],
+    "answer": "React"
+  },
+  {
+    "question": "What does `NaN` stand for?",
+    "options": ["No actual Number", "Not a Name", "Not a Number", "Negative and Null"],
+    "answer": "Not a Number"
+  },
+  {
+    "question": "Which event is triggered when a user clicks an element?",
+    "options": ["onclick", "onhover", "onpress", "onchange"],
+    "answer": "onclick"
+  },
+  {
+    "question": "Which method is used to convert a number to a string?",
+    "options": ["toText()", "toString()", "string()", "text()"],
+    "answer": "toString()"
+  },
+  {
+    "question": "Which symbol is used to spread elements in JavaScript?",
+    "options": ["...", "**", "++", "//"],
+    "answer": "..."
+  }
+]

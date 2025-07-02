@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What type of database is MongoDB?",
+    "options": ["Relational", "NoSQL", "Graph", "Hierarchical"],
+    "answer": "NoSQL"
+  },
+  {
+    "question": "What is a collection in MongoDB?",
+    "options": ["A table", "A schema", "A group of databases", "A group of documents"],
+    "answer": "A group of documents"
+  },
+  {
+    "question": "Which command is used to insert a document in MongoDB?",
+    "options": ["insert()", "add()", "put()", "save()"],
+    "answer": "insert()"
+  },
+  {
+    "question": "What is the default port number for MongoDB?",
+    "options": ["3306", "5432", "27017", "8080"],
+    "answer": "27017"
+  },
+  {
+    "question": "Which data format does MongoDB use to store documents?",
+    "options": ["XML", "JSON", "BSON", "YAML"],
+    "answer": "BSON"
+  },
+  {
+    "question": "Which command lists all collections in the current database?",
+    "options": ["show collections", "list tables", "db.showCollections()", "show tables"],
+    "answer": "show collections"
+  },
+  {
+    "question": "Which method is used to update documents in MongoDB?",
+    "options": ["modify()", "update()", "set()", "change()"],
+    "answer": "update()"
+  },
+  {
+    "question": "Which method removes documents from a collection?",
+    "options": ["delete()", "remove()", "destroy()", "drop()"],
+    "answer": "remove()"
+  },
+  {
+    "question": "Which method is used to find all documents in a collection?",
+    "options": ["findAll()", "search()", "find()", "query()"],
+    "answer": "find()"
+  },
+  {
+    "question": "What is the equivalent of a row in a relational database in MongoDB?",
+    "options": ["Field", "Record", "Document", "Collection"],
+    "answer": "Document"
+  },
+  {
+    "question": "Which of the following is a valid MongoDB comparison operator?",
+    "options": ["$gt", "@gt", ":gt", "#gt"],
+    "answer": "$gt"
+  },
+  {
+    "question": "What does `db` represent in MongoDB shell?",
+    "options": ["Database client", "Current database", "Server instance", "Cluster"],
+    "answer": "Current database"
+  },
+  {
+    "question": "How do you switch to a different database in MongoDB shell?",
+    "options": ["use dbname", "switch dbname", "select dbname", "db use dbname"],
+    "answer": "use dbname"
+  },
+  {
+    "question": "What does the `ObjectId` represent in MongoDB?",
+    "options": ["Primary key", "Timestamps", "Unique identifier for a document", "Username"],
+    "answer": "Unique identifier for a document"
+  },
+  {
+    "question": "What will `db.collection.drop()` do?",
+    "options": ["Delete all documents", "Delete collection", "Delete database", "Remove user"],
+    "answer": "Delete collection"
+  },
+  {
+    "question": "Which MongoDB operator is used to combine multiple conditions?",
+    "options": ["$if", "$match", "$and", "$combine"],
+    "answer": "$and"
+  },
+  {
+    "question": "Which of the following is a MongoDB aggregation stage?",
+    "options": ["$group", "$classify", "$compare", "$filter"],
+    "answer": "$group"
+  },
+  {
+    "question": "Which operator is used to check for field existence in a document?",
+    "options": ["$exists", "$defined", "$present", "$has"],
+    "answer": "$exists"
+  },
+  {
+    "question": "Which method will delete a single document from a collection?",
+    "options": ["deleteOne()", "removeOne()", "dropOne()", "clearOne()"],
+    "answer": "deleteOne()"
+  },
+  {
+    "question": "Which of the following MongoDB methods is used to limit the number of returned documents?",
+    "options": ["find().short()", "find().slice()", "find().limit()", "find().top()"],
+    "answer": "find().limit()"
+  }
+]

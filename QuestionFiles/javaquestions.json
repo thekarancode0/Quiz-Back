@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which keyword is used to define a class in Java?",
+    "options": ["class", "Class", "define", "struct"],
+    "answer": "class"
+  },
+  {
+    "question": "Which method is the entry point of any Java program?",
+    "options": ["start()", "main()", "run()", "init()"],
+    "answer": "main()"
+  },
+  {
+    "question": "Which of the following is not a primitive data type in Java?",
+    "options": ["int", "float", "boolean", "String"],
+    "answer": "String"
+  },
+  {
+    "question": "What is the size of a `boolean` variable in Java?",
+    "options": ["1 bit", "1 byte", "2 bytes", "Depends on JVM"],
+    "answer": "Depends on JVM"
+  },
+  {
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["inherits", "extends", "implements", "instanceof"],
+    "answer": "extends"
+  },
+  {
+    "question": "Which of the following is used to handle exceptions in Java?",
+    "options": ["try-catch", "if-else", "throw-catch", "error handling"],
+    "answer": "try-catch"
+  },
+  {
+    "question": "Which of the following is not an access modifier in Java?",
+    "options": ["public", "private", "protected", "package"],
+    "answer": "package"
+  },
+  {
+    "question": "Which collection class stores unique elements in Java?",
+    "options": ["List", "Map", "Set", "Array"],
+    "answer": "Set"
+  },
+  {
+    "question": "Which of the following is used to create an object in Java?",
+    "options": ["create", "new", "make", "init"],
+    "answer": "new"
+  },
+  {
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": "do-while"
+  },
+  {
+    "question": "Which package contains the Scanner class?",
+    "options": ["java.io", "java.util", "java.lang", "java.scan"],
+    "answer": "java.util"
+  },
+  {
+    "question": "What does JVM stand for?",
+    "options": ["Java Variable Machine", "Java Virtual Machine", "Just Virtual Machine", "Java Verified Module"],
+    "answer": "Java Virtual Machine"
+  },
+  {
+    "question": "Which keyword is used to define a constant variable?",
+    "options": ["const", "final", "static", "constant"],
+    "answer": "final"
+  },
+  {
+    "question": "Which interface must be implemented to create a thread?",
+    "options": ["Runnable", "Threadable", "Executor", "ActionListener"],
+    "answer": "Runnable"
+  },
+  {
+    "question": "Which class is the superclass of all classes in Java?",
+    "options": ["Object", "Class", "System", "Main"],
+    "answer": "Object"
+  },
+  {
+    "question": "Which method is used to compare two strings in Java?",
+    "options": ["==", "compare()", "equals()", "isEqual()"],
+    "answer": "equals()"
+  },
+  {
+    "question": "What will be the output of: System.out.println(3 + 4 + \"Java\")?",
+    "options": ["7Java", "Java7", "34Java", "Java34"],
+    "answer": "7Java"
+  },
+  {
+    "question": "What is method overloading?",
+    "options": ["Methods with same name but different parameters", "Methods with same name and same parameters", "Methods with different return types", "None of the above"],
+    "answer": "Methods with same name but different parameters"
+  },
+  {
+    "question": "Which of the following is a wrapper class in Java?",
+    "options": ["int", "Integer", "String", "Char"],
+    "answer": "Integer"
+  },
+  {
+    "question": "Which keyword is used to stop a loop in Java?",
+    "options": ["exit", "stop", "end", "break"],
+    "answer": "break"
+  }
+]

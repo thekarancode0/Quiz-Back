@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does SQL stand for?",
+    "options": ["Structured Query Language", "Simple Query Language", "Structured Question Language", "System Query Language"],
+    "answer": "Structured Query Language"
+  },
+  {
+    "question": "Which SQL statement is used to extract data from a database?",
+    "options": ["GET", "EXTRACT", "SELECT", "FETCH"],
+    "answer": "SELECT"
+  },
+  {
+    "question": "Which SQL command is used to insert data into a table?",
+    "options": ["ADD", "INSERT INTO", "UPDATE", "CREATE"],
+    "answer": "INSERT INTO"
+  },
+  {
+    "question": "Which keyword is used to remove all records from a table without deleting the table itself?",
+    "options": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+    "answer": "TRUNCATE"
+  },
+  {
+    "question": "Which SQL statement is used to update data in a table?",
+    "options": ["CHANGE", "MODIFY", "UPDATE", "ALTER"],
+    "answer": "UPDATE"
+  },
+  {
+    "question": "What is the default sorting order in SQL?",
+    "options": ["Descending", "Random", "None", "Ascending"],
+    "answer": "Ascending"
+  },
+  {
+    "question": "Which clause is used to filter the results returned by a SELECT statement?",
+    "options": ["WHERE", "ORDER BY", "GROUP BY", "FROM"],
+    "answer": "WHERE"
+  },
+  {
+    "question": "What does the COUNT() function do?",
+    "options": ["Counts all columns", "Counts all rows", "Counts only NULL values", "Adds up numeric columns"],
+    "answer": "Counts all rows"
+  },
+  {
+    "question": "Which SQL keyword is used to sort the result-set?",
+    "options": ["SORT BY", "ARRANGE BY", "ORDER BY", "GROUP BY"],
+    "answer": "ORDER BY"
+  },
+  {
+    "question": "Which operator is used to test for NULL values?",
+    "options": ["= NULL", "== NULL", "IS NULL", "NULL?"],
+    "answer": "IS NULL"
+  },
+  {
+    "question": "Which statement is used to delete a table from a database?",
+    "options": ["DELETE", "REMOVE", "DROP TABLE", "CLEAR"],
+    "answer": "DROP TABLE"
+  },
+  {
+    "question": "Which function is used to return the highest value in a column?",
+    "options": ["TOP()", "HIGHEST()", "MAX()", "LARGEST()"],
+    "answer": "MAX()"
+  },
+  {
+    "question": "Which clause groups rows that have the same values into summary rows?",
+    "options": ["ORDER BY", "GROUP BY", "SUM BY", "SORT BY"],
+    "answer": "GROUP BY"
+  },
+  {
+    "question": "What is a primary key?",
+    "options": ["A key that points to a foreign key", "A unique identifier for a record", "A key used only in joins", "An index with NULL values"],
+    "answer": "A unique identifier for a record"
+  },
+  {
+    "question": "What is the purpose of the JOIN clause in SQL?",
+    "options": ["To combine rows from two or more tables", "To delete data", "To update values", "To add constraints"],
+    "answer": "To combine rows from two or more tables"
+  },
+  {
+    "question": "Which JOIN returns all records from both tables and fills in NULLs where there is no match?",
+    "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+    "answer": "FULL OUTER JOIN"
+  },
+  {
+    "question": "Which constraint ensures that a column cannot have NULL values?",
+    "options": ["PRIMARY KEY", "UNIQUE", "NOT NULL", "FOREIGN KEY"],
+    "answer": "NOT NULL"
+  },
+  {
+    "question": "Which command is used to create a new table in SQL?",
+    "options": ["CREATE DATABASE", "MAKE TABLE", "NEW TABLE", "CREATE TABLE"],
+    "answer": "CREATE TABLE"
+  },
+  {
+    "question": "Which SQL statement is used to prevent duplicate values in a column?",
+    "options": ["DISTINCT", "UNIQUE", "LIMIT 1", "SET PRIMARY"],
+    "answer": "UNIQUE"
+  },
+  {
+    "question": "What does the LIKE operator do?",
+    "options": ["Compares exact matches", "Checks range of values", "Compares pattern matches", "Validates foreign keys"],
+    "answer": "Compares pattern matches"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is Node.js?",
+    "options": ["A JavaScript framework", "A JavaScript runtime", "A Java library", "A browser extension"],
+    "answer": "A JavaScript runtime"
+  },
+  {
+    "question": "Which module is used to create a web server in Node.js?",
+    "options": ["http", "url", "fs", "net"],
+    "answer": "http"
+  },
+  {
+    "question": "Which function is used to include external modules in Node.js?",
+    "options": ["require()", "include()", "import()", "attach()"],
+    "answer": "require()"
+  },
+  {
+    "question": "Which object is used to work with the file system in Node.js?",
+    "options": ["os", "fs", "http", "path"],
+    "answer": "fs"
+  },
+  {
+    "question": "Which command is used to initialize a Node.js project?",
+    "options": ["node init", "npm init", "create node", "npm start"],
+    "answer": "npm init"
+  },
+  {
+    "question": "What is the default file name for a Node.js package file?",
+    "options": ["index.js", "package.js", "main.js", "package.json"],
+    "answer": "package.json"
+  },
+  {
+    "question": "Which of these is NOT a core module in Node.js?",
+    "options": ["events", "fs", "express", "http"],
+    "answer": "express"
+  },
+  {
+    "question": "What is the command to install a package globally?",
+    "options": ["npm install -g <package>", "npm add <package>", "node install <package>", "npm global <package>"],
+    "answer": "npm install -g <package>"
+  },
+  {
+    "question": "How do you export a module in Node.js?",
+    "options": ["export.module = MyModule", "module.exports = MyModule", "exports = MyModule", "define MyModule"],
+    "answer": "module.exports = MyModule"
+  },
+  {
+    "question": "Which method reads a file asynchronously in Node.js?",
+    "options": ["readFileSync()", "readFile()", "openFile()", "fetchFile()"],
+    "answer": "readFile()"
+  },
+  {
+    "question": "Which module provides utilities for working with file and directory paths?",
+    "options": ["path", "fs", "url", "os"],
+    "answer": "path"
+  },
+  {
+    "question": "What does the 'process' object provide in Node.js?",
+    "options": ["Access to CPU info", "Access to global variables", "Information and control over the current Node.js process", "Database control"],
+    "answer": "Information and control over the current Node.js process"
+  },
+  {
+    "question": "Which middleware is used in Express to handle JSON request bodies?",
+    "options": ["express.urlencoded()", "express.json()", "body.json()", "app.body()"],
+    "answer": "express.json()"
+  },
+  {
+    "question": "How can you listen on port 3000 using Express?",
+    "options": ["app.listen(3000)", "server.run(3000)", "express.start(3000)", "run.listen(3000)"],
+    "answer": "app.listen(3000)"
+  },
+  {
+    "question": "Which Node.js module is used to create event-driven applications?",
+    "options": ["events", "fs", "http", "dns"],
+    "answer": "events"
+  },
+  {
+    "question": "What does npm stand for?",
+    "options": ["Node Package Manager", "Node Program Module", "New Program Manager", "Network Package Manager"],
+    "answer": "Node Package Manager"
+  },
+  {
+    "question": "How do you read environment variables in Node.js?",
+    "options": ["env.get()", "process.env", "get.env()", "system.env"],
+    "answer": "process.env"
+  },
+  {
+    "question": "What is the use of the 'buffer' class in Node.js?",
+    "options": ["To buffer video", "To store raw binary data", "To delay execution", "To cache files"],
+    "answer": "To store raw binary data"
+  },
+  {
+    "question": "Which of the following is true about Node.js?",
+    "options": ["It is single-threaded and asynchronous", "It is multi-threaded and synchronous", "It runs in the browser", "It only works with MySQL"],
+    "answer": "It is single-threaded and asynchronous"
+  },
+  {
+    "question": "Which extension is commonly used for Node.js files?",
+    "options": [".html", ".js", ".json", ".node"],
+    "answer": ".js"
+  }
+]
